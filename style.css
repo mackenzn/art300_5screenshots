@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100vw;
+    height: 80vh;
+    position: relative;
+    background-color: #F29765;
+}
+
+.logo {
+    width: 500px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+    background-color: #C46103;
+}
+
+.showinfo {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    bottom: 100px;
+    left: 30px;
+    background-color: #C46103;
+}
+
+.toolbar {
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    background-color: #C46103;
+}
+
+.sound {
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    background-color: #C46103;
+}
+
+.shows {
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    background-color: #B74737;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: auto;
+}
+
+.row {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10px 150px;
+    grid-gap: 20px;
+    display: grid;
+    margin: 30px;
+}
+
+.title {
+    height: 30px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    background-color: #9CCACA; 
+    margin-bottom: 10px;
+}
+
+.thumbnail { 
+    background-color: #F29765;
+}
+
+.trending {
+    width: 100vw;
+    height: 60vh;
+    background-color: #9CCACA;
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 900px 600px;
+    margin: auto;
+    padding: 50px;
+}
+
+.trendingvisual {
+    background-color: #79595D;
+}
+
+.trendinginfo {
+    background-color: #79595D;
+}
+
+.movies {
+    width: 100vw;
+    height: 95vh;
+    position: relative;
+    background-color: #B74737;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: auto;
+}
+
+.footer{
+    background-color: #008790;
+    width: 100vw;
+    height: 60vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: auto;
+    position: relative;
+}
+
+.footer-info{
+    background-color: #9CCACA;
+    width: 725px;
+    height: 200px;
+    margin: auto;
+    
+}
