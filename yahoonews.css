@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #8D8E8C;
+    width: 100vw;
+    height: 40vh;
+    position: relative;
+}
+
+.logo{
+    background-color: #39313A;
+}
+
+.searchbar {
+    background-color: #39313A;
+}
+
+.signin {
+    background-color: #39313A;
+}
+
+.options{
+    background-color: #39313A;
+}
+
+.socialmedia {
+    background-color: #39313A;
+}
+
+.ad {
+    background-color: #39313A;
+}
