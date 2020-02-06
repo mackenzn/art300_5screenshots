@@ -48,7 +48,6 @@ body {
 
 .shows {
     width: 100vw;
-    height: 70vh;
     position: relative;
     background-color: #B74737;
     padding-top: 20px;
@@ -77,13 +76,12 @@ body {
 }
 
 .trending {
-    width: 100vw;
     height: 60vh;
     background-color: #9CCACA;
     
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 900px 600px;
+    grid-template-columns: 2fr 1fr;
     margin: auto;
     padding: 50px;
 }
@@ -98,7 +96,6 @@ body {
 
 .movies {
     width: 100vw;
-    height: 95vh;
     position: relative;
     background-color: #B74737;
     padding-top: 20px;
