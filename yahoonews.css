@@ -6,7 +6,7 @@ body {
 .header {
     background-color: #8D8E8C;
     width: 100vw;
-    position: relative;
+    padding-bottom: 2px;
 }
 
 .home {
@@ -17,10 +17,12 @@ body {
 
 .line_one {
     display: grid;
-    grid-template-columns: 90px 600px 150px;
+    grid-template-columns: 90px 1fr 150px;
     grid-template-rows: 40px;
-    grid-gap: 20px 100px;
-    background-color: azure;
+    grid-gap: 200px;
+    margin: auto;
+    margin-top: 20px;
+    width: 70vw;
 }
 .logo{
     background-color: #39313A;
@@ -36,24 +38,30 @@ body {
 
 .line_two {
     display: grid;
+    grid-template-columns: 1fr 170px;
+    grid-template-rows: 20px;
+    grid-gap: 250px;
+    margin: auto;
+    margin-top: 20px;
+    width: 70vw;
 }
 
 .options{
     background-color: #39313A;
-    width: 750px;
-    height: 20px;
 }
 
 .socialmedia {
     background-color: #39313A;
-    width: 170px;
-    height: 20px;
 }
 
 .ad {
     background-color: #39313A;
     width: 600px;
     height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .background {
