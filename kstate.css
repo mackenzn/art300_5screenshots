@@ -6,9 +6,97 @@ body {
 .topheader {
     background-color: #F29765;
     width: 100vw;
-    height: 20px;
+    height: 40px;
 }
 
 .header {
+    background-color: #C46103;
+    width: 100vw;
+    height: 130px;
+}
+
+.logo {
+    background-color: #F29765;
+    width: 260px;
+    height: 40px;
+}
+
+.search {
+    background-color: #F29765;
+    width: 200px;
+    height: 20px;
+}
+
+.signin {
+    background-color: #F29765;
+    width: 15px;
+    height: 10px;
+}
+
+.bottomheader {
+    background-color: #B74737;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    grid-template-rows: 30px;
+    grid-gap: 40px;
+    margin: auto;
+    padding: 20px;
+}
+
+.heading {
+    background-color: #F29765;
+}
+
+.sideheading {
+    background-color: #F29765;
+}
+
+.coverphoto {
+    background-color: #F29765;
+    width: 100vw;
+    height: 65vh;
+}
+
+.optionbar {
+    background-color: #008790;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px;
+    grid-gap: 20px;
+    margin: auto;
+    padding: 20px;
+}
+
+.option {
+    background-color: #9CCACA;
+}
+
+.events {
+    background-color: #B74737;
+    width: 100vw;
+}
+
+.news {
+    background-color: #C46103;
+    width: 100vw;
+}
+
+.middlebar {
+    background-color: #F29765;
+    width: 100vw;
+    height: 70px;
+}
+
+.information {
+    background-color: #008790;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.section {
     
 }
+
