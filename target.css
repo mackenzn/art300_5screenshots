@@ -6,11 +6,12 @@ body {
 .header {
     background-color: #F39991;
     display: grid;
-    grid-template-columns: 20px 200px 1fr 70px;
+    grid-template-columns: 30px 450px 1fr 70px;
     grid-template-rows: 30px;
     grid-gap: 30px;
     margin: auto;
-    width: 100vw;
+    height: 5vh;
+    padding: 10px;
 }
 
 .logo {
@@ -27,4 +28,99 @@ body {
 
 .side {
     background-color: #F7D2C6;
+}
+
+.headline {
+    background-color: #8D8E8C;
+    height: 2.5vh;
+    display: grid;
+    grid-template-rows: 20px;
+    grid-template-columns:200px 1fr;
+    grid-gap: 200px;
+    margin: auto;
+    padding: 10px;
+}
+
+.location {
+    background-color: #98CCCC;
+}
+
+.options {
+    background-color: #98CCCC;
+}
+
+.mainevent {
+    background-color: #F3F3F1;
+    width: 100vw;  
+}
+
+.cover {
+    background-color: #F39991;
+    width: 70vw; 
+    height: 700px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sale {
+    background-color: #F39991;
+    width: 70vw; 
+    height: 750px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 100px;
+    grid-gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.topbar {
+    display: grid;
+    grid-template-rows: 1fr 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: auto;
+}
+
+.image {
+    background-color: #F7D2C6;
+}
+
+.caption {
+    background-color: #F7D2C6;
+}
+
+.bottombar {
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 400px 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.event {
+    background-color: #98CCCC; 
+}
+
+.saleitem {
+    background-color: #98CCCC;
+}
+
+.foodad {
+    background-color: #8D8E8C;
+    width: 70vw;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.homead {
+    background-color: #8D8E8C;
+    width: 70vw;
+    height: 275px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
