@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #F39991;
+    display: grid;
+    grid-template-columns: 20px 200px 1fr 70px;
+    grid-template-rows: 30px;
+    grid-gap: 30px;
+    margin: auto;
+    width: 100vw;
+}
+
+.logo {
+    background-color: #F7D2C6;
+}
+
+.menu{
+    background-color: #F7D2C6;
+}
+
+.searchbar {
+    background-color: #F7D2C6;
+}
+
+.side {
+    background-color: #F7D2C6;
+}
