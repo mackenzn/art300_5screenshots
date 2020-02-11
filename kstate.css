@@ -165,3 +165,35 @@ body {
 .footer {
     background-color: #B74737; 
 }
+
+.toprow {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+
+.saftey {
+    background-color: #C46103;
+}
+
+.calander {
+    background-color: #C46103;
+}
+
+.contact {
+    background-color: #C46103;
+}
+
+.bottomrow {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+
+.location {
+    background-color: #C46103;
+}
+
+.socialmedia {
+    background-color: #C46103;
+}
