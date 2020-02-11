@@ -168,8 +168,12 @@ body {
 
 .toprow {
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns:70px 20px 1fr;
+    grid-template-rows: 50px;
+    width: 70vw;
+    grid-gap: 70px;
+    margin: auto;
+    padding: 20px;
 }
 
 .saftey {
@@ -178,6 +182,7 @@ body {
 
 .calander {
     background-color: #C46103;
+    height: 20px;
 }
 
 .contact {
@@ -186,8 +191,12 @@ body {
 
 .bottomrow {
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 50px;
+    width: 70vw;
+    grid-gap: 80px;
+    margin: auto;
+    padding: 20px;
 }
 
 .location {
