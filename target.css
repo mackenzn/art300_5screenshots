@@ -69,7 +69,7 @@ body {
     height: 750px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 100px;
+    grid-template-rows: 2fr 1fr;
     grid-gap: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -94,17 +94,18 @@ body {
 
 .bottombar {
     display: grid;
-    grid-template-rows: 100px;
     grid-template-columns: 400px 1fr 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
 .event {
     background-color: #98CCCC; 
+    height: 100px;
 }
 
 .saleitem {
     background-color: #98CCCC;
+    height: 100px;
 }
 
 .foodad {
@@ -123,4 +124,63 @@ body {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.categories {
+   background-color: #98CCCC; 
+   height: fit-content;
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-gap: 30px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px;
+}
+
+.row {
+    width: 65vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30px 200px 60px;
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    background-color: #009E8C;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.photo {
+    background-color: #009E8C;
+}
+
+.text {
+    background-color: #009E8C;
+}
+
+.bottomrow {
+    width: 65vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px 200px 50px;
+    grid-gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.print {
+    background-color: #009E8C;
+}
+
+.description {
+    background-color: #009E8C;
+}
+
+.feature {
+    background-color: #F7D2C6;
+
 }
